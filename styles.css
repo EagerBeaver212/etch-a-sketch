@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 98vh;
+  border: 1px solid pink;
+}
+
+.title {
+  font-size: 32px;
+}
+
+#grid {
+  border-collapse: collapse;
+  flex: 1 1 auto;
+  width: 98vh;
+}
+
+td:hover {
+  background-color: blue;
+}
+
+tr,
+td {
+  border: 1px solid grey;
+}
+
+.filled {
+  background-color: red;
+}
