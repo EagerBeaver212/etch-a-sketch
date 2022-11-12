@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 98vh;
-  background-image: url(/images/pencils-background.png);
+  background-image: url(./images/pencils-background.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
