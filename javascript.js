@@ -9,7 +9,7 @@ let gridSize = sizeSlider.value
 let colorPicker = document.getElementById('colorPicker')
 let color = colorPicker.value
 
-let updateSize = () => displaySize.innerHTML = sizeSlider.value
+let updateSize = () => displaySize.innerHTML = (sizeSlider.value + " x " + sizeSlider.value)
 
 clearButton.addEventListener('click', resetGrid)
 sizeSlider.addEventListener('input', updateSize)
